@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@root": ["./"],
+      "@root/*": ["./*"],
+      "@lib": ["./lib"],
+      "@lib/*": ["./lib/*"],
+      "@baz": ["./baz.ts"],
+      "@boo": ["./boo.tsx"]
+    }
+  }
+}
