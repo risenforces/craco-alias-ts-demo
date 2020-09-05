@@ -7,7 +7,15 @@
       "@lib": ["./lib"],
       "@lib/*": ["./lib/*"],
       "@baz": ["./baz.ts"],
-      "@boo": ["./boo.tsx"]
+      "@boo": ["./boo.tsx"],
+      "@my-react-select": [
+        "../node_modules/react-select",
+        "../node_modules/@types/react-select"
+      ],
+      "@my-react-select/*": [
+        "../node_modules/react-select/*",
+        "../node_modules/@types/react-select"
+      ]
     }
   }
 }

@@ -13,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-select": "^3.0.19",
     "craco": "^0.0.3",
     "craco-alias": "^2.1.1"
   }
